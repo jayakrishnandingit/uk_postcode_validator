@@ -21,7 +21,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     # $ pip install uk_postcode_validator
     name='uk_postcode_validator',  # Required.
-    version='1.0.0',  # Required
+    version='1.0.3',  # Required
     description='A Python wrapper for Postcodes.io to validate and format UK postcodes.',  # Required
     long_description=long_description,
     long_description_content_type='text/markdown',

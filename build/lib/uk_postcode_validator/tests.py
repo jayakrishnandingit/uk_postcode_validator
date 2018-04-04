@@ -13,6 +13,11 @@ class PostCodeTest(unittest.TestCase):
         response = client.validate('M1 1AE')
         self.assertEqual(response, 'M1 1AE')
 
+    def test_case_insensitive_validation_is_success(self):
+        client = PostCodeClient()
+        response = client.validate('ox495nu')
+        self.assertEqual(response, 'OX49 5NU')
+
     def test_formatting_invalid_postcode_fails(self):
         client = PostCodeClient()
         with self.assertRaises(ValidationError) as e:

@@ -4,13 +4,13 @@ UK Postcode Validator is a python wrapper that helps in validating and formattin
 
 ## Pre-requisites
 
-* python3.6
+* python2.7 or 3.6
 
 ## How to install?
 
 ```
 source myvenv/bin/activate
-pip install uk_postcode_validator
+pip install uk-postcode-validator
 ```
 
 ## Usage
