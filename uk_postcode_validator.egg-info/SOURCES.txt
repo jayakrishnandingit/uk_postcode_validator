@@ -1,3 +1,8 @@
+CHANGES.log
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
 setup.py
 uk_postcode_validator/__init__.py
 uk_postcode_validator/client.py

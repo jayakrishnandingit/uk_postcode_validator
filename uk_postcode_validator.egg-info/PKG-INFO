@@ -1,6 +1,6 @@
 Metadata-Version: 1.2
 Name: uk-postcode-validator
-Version: 1.0.1
+Version: 1.0.0
 Summary: A Python wrapper for Postcodes.io to validate and format UK postcodes.
 Home-page: UNKNOWN
 Author: Jayakrishnan Damodaran
@@ -77,5 +77,6 @@ Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
 Classifier: Topic :: Software Development
 Classifier: License :: MIT License
+Classifier: Programming Language :: Python :: 2.7
 Classifier: Programming Language :: Python :: 3.6
-Requires-Python: >=3
+Requires-Python: >=2.7

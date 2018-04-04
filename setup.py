@@ -19,9 +19,9 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    # $ pip install ukpostcodevalidator
+    # $ pip install uk_postcode_validator
     name='uk_postcode_validator',  # Required.
-    version='1.0.1',  # Required
+    version='1.0.0',  # Required
     description='A Python wrapper for Postcodes.io to validate and format UK postcodes.',  # Required
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -38,9 +38,13 @@ setup(
         'License :: MIT License',
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
+        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.6',
     ],
+    project_urls={
+        'Source': 'https://github.com/jayakrishnandingit/uk_postcode_validator',
+    },
     packages=find_packages(exclude=['contrib', 'docs']),
     install_requires=['requests>=2.18.4'],
-    python_requires='>=3'
+    python_requires='>=2.7'
 )
